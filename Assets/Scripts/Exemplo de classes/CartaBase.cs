@@ -12,15 +12,5 @@ public class CartaBase : ScriptableObject
     public uint defesa;
     public uint magia;
     [Range(0, 100)] public int custo;
-
-    public void Info()
-    {
-        Debug.Log(nome);
-        Debug.Log(efeito);
-        Debug.Log(vida);
-        Debug.Log(ataque);
-        Debug.Log(defesa);
-        Debug.Log(magia);
-        Debug.Log(custo);
-    }
+    
 }
